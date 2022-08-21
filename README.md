@@ -4,18 +4,19 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby minimal TypeScript starter
+  Gatsby minimal TypeScript starter with Tailwind
 </h1>
 
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+1.  **Change metadata.**
 
-    Use the Gatsby CLI to create a new site, specifying the minimal TypeScript starter.
+    Change metadata of your application
 
     ```shell
-    # create a new Gatsby site using the minimal TypeScript starter
-    npm init gatsby
+    - Replace all 'gatsby-tailwind-template' strings with your custom package name
+    - Replace gatsby-config.ts siteMetadata properties
+    - Replace title of your page and add custom metadata in Head component found in src/pages/index.ts
     ```
 
 2.  **Start developing.**
